@@ -6,3 +6,23 @@
   max-height: 400px;
   overflow: auto;
 }
+
+.btn-failure {
+  color: red;
+  background-color: transparent;
+}
+
+.jumbotron {
+  background-color: #F99B61;
+  color: white;
+}
+
+th {
+  background-color: #4884C4;
+  color: white;
+}
+
+h1 {
+  font-weight: bold;
+  color: #4884C4;
+}
