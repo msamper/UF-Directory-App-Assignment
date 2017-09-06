@@ -2,6 +2,21 @@
   margin: 15px 10px;
 }
 
+th {
+  background-color: #4884C4;
+  color: white;
+}
+
+body {
+  background: #f4f4f4;
+}
+
+form {
+  background-color: #F99B61;
+  color: white;
+  padding: 10px;
+}
+
 .tableWrapper {
   max-height: 400px;
   overflow: auto;
@@ -14,11 +29,6 @@
 
 .jumbotron {
   background-color: #F99B61;
-  color: white;
-}
-
-th {
-  background-color: #4884C4;
   color: white;
 }
 
