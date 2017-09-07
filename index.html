@@ -34,10 +34,10 @@
                       * include a way to remove individual listings
 
                 -->
-                <tr ng-repeat="listing in listings | filter : searchText" ng-click="showDetails($index)">
+                <tr ng-repeat="listing in listings | filter : searchText" ng-click="showDetails(listing)">
                   <td>{{listing.code}}</td>
                   <td>{{listing.name}}</td>
-                  <td><button type="button" class="btn btn-failure" ng-click="deleteListing($index)"/>
+                  <td><button type="button" class="btn btn-failure" ng-click="deleteListing(listing)"/>
                   <span class="glyphicon glyphicon-remove"></span>
                   </td>
                 </tr>
