@@ -43,7 +43,7 @@
                 </tr>
             </table>
           </div>
-          <form>
+          <form name="Form">
           <!--
 
               Write an HTML form that adds new listings to the directory
@@ -68,7 +68,7 @@
               <div class="form-group">
               <label for="addInp">Address</label>
               <input type="text" class="form-control" id="addInp" ng-model="address"><br><br>
-              <button type="submit" class="btn btn-primary" ng-click="addListing()">Submit</button>
+              <button type="submit" class="btn btn-primary" ng-click="addListing()" ng-disabled="Form.$invalid">Submit</button>
           </div>
           </form>
         </div>
